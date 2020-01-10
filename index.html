@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>GitHub Profile Search</title>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+</head>
+<link rel="stylesheet" href="Githubstyle.css">
+<body>
+    <h1 style="margin-left: 18em;">GitHub</h1>
+    <div id="searchdiv">
+        <input id="name" type="text" placeholder="User Name">
+    <button id="search" onclick="search()">Search</button>
+    </div>
+    
+    <h3 id="message"></h3>
+    <h4 id="enterValid"></h4>
+    <div id="wholeuser" style="display:none;">
+<img id="dp" src="" alt="" srcset="">
+    <div id="userInfo">
+        <div id="firstPart" style="float: left;">
+            <div class="first"><span>Name : </span><label id="uname"></label></div>
+            <div class="first"><span>email : </span><label id="email"></label></div>
+            <div class="first"><button class="but" id="followers" onclick="followers()"></button></div>
+            <div class="first"><button class="but" id="repositories" onclick="repositories()"></button></div>
+        </div>
+        <div id="secondPart" style="margin-left:17em ;">
+            <div class="second"><span>Username : </span><label id="userName"></label></div>
+            <div class="second"><span>location : </span><label id="location"></label></div>
+            <div class="second"><button class="but" id="followings" onclick="following()"></button></div>
+        </div>
+    </div>
+</div>
+<div id="followMainDiv" style="visibility: hidden;">
+</div>
+    <script src="github.js"></script>
+</body>
+</html>

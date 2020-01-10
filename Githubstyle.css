@@ -1,0 +1,139 @@
+
+    body
+    {
+        font-weight:bold;
+    }
+#wholeuser
+{
+    margin-top: 2em;
+    margin-left: 15em;
+    padding: 1em;
+    border: 1px solid #cccccc;
+    height: 12em;
+    width: 50em;
+    border-radius: 7px;
+}
+#userInfo
+{
+    /* text-align:center ; */
+    margin-left: 13em;
+    background-color: #f2f2f2;
+    line-height: 2em;
+   height: 10em;
+   padding: 1em;
+   border-radius: 7px;
+    
+}
+
+.second
+{
+margin-top: .5em;
+}
+.first
+{
+margin-top: .5em;
+}
+#dp
+{
+    float: left;
+    width: 12em;
+    height: 12em;
+    border-radius: 7px;
+}
+#uname,#email,#userName,#location
+{
+    color: midnightblue;
+}
+#searchdiv
+{
+    background-color: #cceeff;
+    width: 70em;
+    text-align: center;
+    margin-left:7em;
+    height: 5em;
+  border-radius: 7px;
+
+}
+#name
+{
+    margin-top: 1.8em;
+    height: 2.3em;
+    width: 40em;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+}
+#search
+{
+    width: 5em;
+    height: 2em;
+    background-color: #0088cc;
+    border: none;
+    margin-left:-5.5em;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.but
+{
+    height: 2em;
+    background-color: #0088cc;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#followMainDiv
+{
+    width: 76em;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3.7em;
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color:  #e6e6e6;
+    border-radius: 15px;
+}
+#follow
+{
+    width: 35em;
+    height: 10em;
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 1rem;
+    
+}
+#followimg
+{
+   
+    width: 10em;
+    height: 10em;
+    border-radius: 5px;
+    float: left;
+    background-color: white;
+}
+#followDetail
+{
+   
+    margin-left: 11em;
+    height: 9.5em;
+    border-radius: 6px;
+    background-color: white;
+    padding-left: 1em;
+    padding-top: .5em;
+    line-height: 1.5em;
+    
+}
+.dcolor
+{
+    color: darkslategrey;
+}
+#repoLinks
+{
+    margin-left: 1em;
+    margin-top: 1em;
+}
